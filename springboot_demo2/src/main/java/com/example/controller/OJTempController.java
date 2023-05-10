@@ -32,6 +32,8 @@ public class OJTempController {
                 "        System.out.println(\"Hello, world!\");\n" +
                 "    }\n" +
                 "}";
+
+        System.out.println(code1);
         System.out.println(code1);
         OJTempService.compileAndRun(code1);
     }
